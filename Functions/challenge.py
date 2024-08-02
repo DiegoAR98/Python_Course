@@ -6,6 +6,7 @@
 # You should use input to read a string and float() to convert the string to a number.
 # Do not worry about error checking the user input unless you want to - you can assume the user types numbers properly.
 # Do not name your variable sum or use the sum() function.
+# Calcule
 
 
 hrs = input("Enter Hours:")
@@ -20,9 +21,10 @@ def computepay(hr, rt):
         extrapay = (rt* 1.5)
         overtimepay = (hrs* extrapay)
         regularpay = 40 * rt
-        payment = (regularpay + overtimepay)
+        weekpayment = (regularpay + overtimepay)
+        anualp = weekpayment * 52
 
-    return(payment)
+    return(anualp)
 
 
         
